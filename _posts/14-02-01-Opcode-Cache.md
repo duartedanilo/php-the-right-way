@@ -1,28 +1,32 @@
 ---
-title: Cache de Bytecode
+title: Cache opcode
 isChild: true
-anchor: cache_de_bytecode
+anchor: cache_opcode
 ---
 
-## Cache de Bytecode {#cache_de_bytecode_title}
+## Cache opcode {#cache_de_opcode_title}
 
-Quando um arquivo PHP é executado, por baixo dos panos ele primeiro é compilado para bytecode (também conhecido como
-opcode) e, só aí, o bytecode é executado.  Se o arquivo PHP não foi modificado, o bytecode será sempre o mesmo. Isso
-significa que o passo de compilação é um desperdício de recursos de CPU.
+Quando um arquivo PHP é executado, deve ser primeiramente compilado para [opcodes](https://php-legacy-docs.zend.com/manual/php4/en/internals2.opcodes) (intruções de linguagem de máquina para CPU). Se o código fonte não for alterado, os opcodes serão os mesmos, então o passo da compilação será um gasto de recursos de CPU. 
 
-É aqui que entra o cache de Bytecode. Ele previne as compilações redundantes armazenando bytecode na memória e
-reutilizando-o em chamadas sucessivas. A configuração do cache de bytecode é feita em questão de minutos, e sua
-aplicação irá acelerar de forma significativa. Não existe razão para não utilizá-lo.
+Um cache opcode previne compilação redundante alocando opcodes em memória e reutilizando-os em sucessivas chamadas. Tipicamente será checada a assinatura ou tempo de modificação do arquivo primeiro, caso tenha ocorrido alguma mudança.
 
-No PHP 5.5 o OPcache foi incluído como um cache de bytecode nativo chamado [OPcache][opcache-book]. Ele também está 
-disponível para versões anteriores.
+Provavelmente um cache opcode trará melhora significativa na velocidade da sua aplicação. Desde o PHP 5.5 existe o [Zend OPcache][opcache-book] embutido. Dependendo do seu pacote/distribuição, geralmente é ativado por padrão - verifique [opcache.enable](https://www.php.net/manual/pt_BR/opcache.configuration.php#ini.opcache.enable) e saída do `phpinfo()` para ter certeza. Para versões mais recentes tem uma extensão no PECL.
 
-Caches de bytecode populares são:
+Leia mais sobre o cache opcode:
 
-* [OPcache][opcache-book] (desde o PHP 5.5)
-* [APC](http://php.net/manual/en/book.apc.php) (PHP 5.4 e anteriores)
-* [XCache](http://xcache.lighttpd.net/)
-* [Zend Optimizer+](http://www.zend.com/products/server/) (parte do pacote Zend Server)
-* [WinCache](http://www.iis.net/download/wincacheforphp) (extensão para o MS Windows Server)
+* [Zend OPcache][opcache-book] (embutido no PHP desde a versão 5.5)
+* Zend OPcache (anteriormente conhecido como Zend Optimizer+) agora é [open source][Zend Optimizer+]
+* [APC] - PHP 5.4 e anteriores
+* [XCache]
+* [WinCache] (extensão para MS Windows Server)
+* [lista de aceleradores para PHP na Wikipedia][PHP_accelerators]
+* [PHP Preloading] - PHP >= 7.4
 
-[opcache-book]: http://php.net/manual/en/book.opcache.php
+
+[opcache-book]: https://www.php.net/manual/pt_BR/book.opcache.php
+[APC]: https://www.php.net/manual/pt_BR/book.apcu.php
+[XCache]: https://github.com/lighttpd/xcache
+[Zend Optimizer+]: https://github.com/zendtech/ZendOptimizerPlus
+[WinCache]: https://www.iis.net/downloads/microsoft/wincache-extension
+[PHP_accelerators]: https://wikipedia.org/wiki/List_of_PHP_accelerators
+[PHP Preloading]: https://www.php.net/manual/pt_BR/opcache.preloading.php
