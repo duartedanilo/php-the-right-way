@@ -8,7 +8,7 @@ anchor: templates_leitura_adicional
 
 ### Artigos & Tutoriais
 
-- [Templating Engines in PHP](http://fabien.potencier.org/article/34/templating-engines-in-php)
+- [Templating Engines in PHP](http://fabien.potencier.org/templating-engines-in-php.html)
 - [An Introduction to Views & Templating in CodeIgniter](http://code.tutsplus.com/tutorials/an-introduction-to-views-templating-in-codeigniter--net-25648)
 - [Getting Started With PHP Templating](http://www.smashingmagazine.com/2011/10/17/getting-started-with-php-templating/)
 - [Roll Your Own Templating System in PHP](http://code.tutsplus.com/tutorials/roll-your-own-templating-system-in-php--net-16596)

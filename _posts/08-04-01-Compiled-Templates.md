@@ -7,7 +7,7 @@ anchor: compiled_templates
 ## Templates Compilados {#compiled_templates_title}
 
 Enquanto o PHP evoluiu para uma linguagem orientada a objetos madura, ele 
-[não melhorou muito](http://fabien.potencier.org/article/34/templating-engines-in-php) como uma linguagem de templates.
+[não melhorou muito](http://fabien.potencier.org/templating-engines-in-php.html) como uma linguagem de templates.
 Templates compilados, como [Twig](http://twig.sensiolabs.org/) ou [Smarty](http://www.smarty.net/)*, preenchem este 
 vazio oferecendo uma nova sintaxe que foi direcionada especificamente para templating. De escape automático, à herança 
 e estruturas de controle simplificadas, templates compilados são projetados para ser mais fácil de escrever, simples de 
