@@ -93,9 +93,4 @@ Isto é essenciamente o mesmo que a maioria dos frameworks modernos fazem, todos
 pode não precisar de tudo a todo momento, mas misturando muita lógica de apresentação e interação com o banco de dados 
 pode ser um problema real se você quiser [testes unitários](/#testes_unitarios) em sua aplicação.
 
-[PHPBridge] tem um grande recurso chamado [Criando uma classe de dados] que aborda um tópico muito similar e é ótimo 
-para os desenvolvedores se acostumar ao o conceito de interagir com o banco de dados.
-
 [MVC]: http://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
-[PHPBridge]: http://phpbridge.org/
-[Criando uma classe de dados]: http://phpbridge.org/intro-to-php/creating_a_data_class
