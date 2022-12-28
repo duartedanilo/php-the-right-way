@@ -14,7 +14,7 @@ melhoria ou uma nova função desejada, em seguida produz o código para passar 
 código pelos padrões aceitáveis. Kent Beck, que é creditado como quem desenvolveu ou "redescobriu" essa técnica, 
 afirmou em 2003 que o TDD encoraja design simples e inspira confiança.
 
-Existem vários tipos diferentes de testes que você pode fazer para sua aplicação.
+Existem vários tipos diferentes de testes que você pode fazer para sua aplicação:
 
 ### Testes Unitários {#testes_unitarios}
 
@@ -39,10 +39,10 @@ deveria sugerir isso como um requisito.
 O [PHPUnit](http://phpunit.de) é o framework de testes de fato para escrever testes unitários em aplicações PHP, mas
 existem várias alternativas:
 
-* [SimpleTest](http://simpletest.org)
-* [Enhance PHP](http://www.enhance-php.com/)
-* [PUnit](http://punit.smf.me.uk/)
-* [atoum](https://github.com/mageekguy/atoum)
+* [atoum](https://github.com/atoum/atoum)
+* [Kahlan](https://github.com/crysalead/kahlan)
+* [Peridot](https://peridot-php.github.io/)
+* [SimpleTest](https://github.com/simpletest/simpletest)
 
 ### Testes de Integração {#testes_integracao}
 
@@ -66,7 +66,7 @@ trabalham usando dados reais e simulam usuários verdadeiros da sua aplicação.
 
 #### Ferramentas para Testes Funcionais {#ferramentas_para_testes_funcionais}
 
-* [Selenium](http://seleniumhq.com)
+* [Selenium](https://www.selenium.dev/)
 * [Mink](http://mink.behat.org)
 * O [Codeception](http://codeception.com) é um framework de testes full-stack que inclui ferramentas para testes de 
 aceitação
