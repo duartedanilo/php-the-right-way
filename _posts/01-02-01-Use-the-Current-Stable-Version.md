@@ -1,6 +1,7 @@
 ---
 title: Use a versão estável atual (8.0)
-isChild: true anchor: use_a_versao_estavel_atual
+isChild: true
+anchor: use_a_versao_estavel_atual
 ---
 
 ## Use a versão estável atual (8.0) {#use_a_versao_estavel_atual_title}
