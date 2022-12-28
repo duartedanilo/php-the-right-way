@@ -31,11 +31,11 @@ mostrado a seguir.
 {% highlight php %}
 <?php
 if ($argc !== 2) {
-    echo "Uso: php hello.php <nome>.\n";
+    echo "Uso: php hello.php <nome>" . PHP_EOL;
     exit(1);
 }
 $name = $argv[1];
-echo "Hello, $name\n";
+echo "Hello, $name" . PHP_EOL;
 {% endhighlight %}
 
 O PHP define duas variáveis especiais baseadas nos argumentos que seu script receber. [`$argc`][argc] é uma variável
