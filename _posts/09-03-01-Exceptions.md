@@ -68,10 +68,9 @@ uma exceção padrão que seria muito vaga, ou criar uma exceção apenas para i
 * [Leia sobre Exceções][exceptions]
 * [Leia sobre SPL Exceptions][splexe]
 * [Aninhando exceções no PHP][nesting-exceptions-in-php]
-* [Melhores práticas com exceções no PHP 5.3][exception-best-practices53]
+
 
 [exceptions]: http://php.net/language.exceptions
 [splexe]: http://php.net/spl.exceptions
 [splext]: {{ site.baseurl }}#standard_php_library
-[exception-best-practices53]: http://ralphschindler.com/2010/09/15/exception-best-practices-in-php-5-3
 [nesting-exceptions-in-php]: http://www.brandonsavage.net/exceptional-php-nesting-exceptions-in-php/
