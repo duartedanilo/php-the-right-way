@@ -12,7 +12,7 @@ localizado). Dessa forma você pode executar o PHP de qualquer lugar.
 
 Para aprender e desenvolver localmente, você pode utilizar o servidor web embutido do PHP 5.4+, de forma que você não
 precisa se preocupar em configurá-lo. Se você prefere um "pacote completo" que inclui um servidor web e MySQL, então
-ferramentas como [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver]
+ferramentas como [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver]
 e [WAMP][wamp] irão te ajudar a montar rapidamente um ambiente de desenvolvimento em Windows. Dito isso, estas
 ferramentas serão um pouco diferentes das ferramentas em produção, portanto tenha cuidado quanto às diferenças de
 ambiente caso esteja trabalhando em Windows e publicando em Linux.
@@ -29,22 +29,12 @@ ambiente não Windows) então você deveria considerar usar uma [Máquina Virtua
 Chris Tankersley tem uma postagem muito útil em quais ferramentas ele usa para
 o [Desenvolvimento PHP usando Windows][windows-tools].
 
-[easyphp]: http://www.easyphp.org/
-
+[easyphp]: https://www.easyphp.org/
 [phpmanager]: http://phpmanager.codeplex.com/
-
-[openserver]: http://open-server.ru/
-
-[wamp]: http://www.wampserver.com/en/
-
-[php-downloads]: http://windows.php.net/download/
-
-[php-iis]: http://php.iis.net/
-
-[windows-path]: http://www.windows-commandline.com/set-path-command-line/
-
-[windows-tools]: http://ctankersley.com/2016/11/13/developing-on-windows-2016/
-
-[wpi]: https://www.microsoft.com/web/downloads/platform.aspx
-
-[xampp]: http://www.apachefriends.org/en/xampp.html
+[openserver]: https://ospanel.io/
+[wamp]: https://www.wampserver.com/en/
+[php-downloads]: https://windows.php.net/download/
+[php-iis]: https://php.iis.net/
+[windows-path]: https://www.windows-commandline.com/set-path-command-line/
+[windows-tools]: https://ctankersley.com/2016/11/13/developing-on-windows-2016/
+[xampp]: https://www.apachefriends.org/

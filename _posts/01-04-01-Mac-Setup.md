@@ -12,15 +12,27 @@ maneiras de instalar a última versão do PHP no macOS.
 ### Instalar PHP via Homebrew
 
 [Homebrew] é um gerenciador de pacotes para MacOS que ajuda você a instalar facilmente o PHP e várias extensões. O
-repositório central Homebrew fornece "fórmulas" para o PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, e o PHP 8.0. Instale a última
+repositório central Homebrew fornece "fórmulas" para o PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 e o PHP 8.1. Instale a última
 versão com este comando:
 
 ```
-brew install php@8.0
+brew install php@8.1
 ```
 
 Você pode alternar entre as versões do PHP do Homebrew modificando a variável `PATH`. Alternativamente você pode usar
 o [brew-php-switcher][brew-php-switcher] para alternar as versões PHP automaticamente.
+
+Você também pode alternar entre as versões do PHP manualmente desvinculando e vinculando a versão desejada:
+
+```
+brew unlink php
+brew link --overwrite php@8.0
+```
+
+```
+brew unlink php
+brew link --overwrite php@8.1
+```
 
 ### Instalar PHP via Macports
 
@@ -31,18 +43,18 @@ sistema operacional OS X.
 O MacPorts suporta binários pré-compilados, portanto, você não precisa recompilar todas as dependências dos arquivos tar
 de origem, ele agiliza sua vida se você não tiver nenhum pacote instalado no seu sistema.
 
-Neste momento, você pode instalar `php54`, `php55`, `php56`, `php70`, `php71`, `php72`, `php73`, `php74` ou `php80`
+Neste momento, você pode instalar `php54`, `php55`, `php56`, `php70`, `php71`, `php72`, `php73`, `php74`, `php80` ou `php81`
 usando o comando `port install`, como por exemplo:
 
  ```
     sudo port install php74
-    sudo port install php80
+    sudo port install php81
  ```
 
 E você pode utilizar o comando `select` para trocar a versão ativa do PHP:
 
 ```
-    sudo port select --set php php80
+    sudo port select --set php php81
 ```
 
 ### Instalar PHP via phpbrew
@@ -89,6 +101,6 @@ para você e amarrá-los todos juntos, mas a facilidade de configuração compro
 
 [mamp-downloads]: https://www.mamp.info/en/downloads/
 
-[xampp]: https://www.apachefriends.org/index.html
+[xampp]: https://www.apachefriends.org/
 
 [brew-php-switcher]: https://github.com/philcook/brew-php-switcher
