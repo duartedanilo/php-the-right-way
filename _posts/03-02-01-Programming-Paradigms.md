@@ -51,13 +51,13 @@ PHP carece de `method_missing`, mas ele está disponível com `__call()` e `__ca
 * [Leia sobre Reflexão][reflection]
 * [Leia sobre Overloading][overloading]
 
-[oop]: https://secure.php.net/language.oop5
-[traits]: https://secure.php.net/language.oop5.traits
-[anonymous-functions]: https://secure.php.net/functions.anonymous
-[closure-class]: https://secure.php.net/class.closure
+[oop]: https://www.php.net/language.oop5
+[traits]: https://www.php.net/language.oop5.traits
+[anonymous-functions]: https://www.php.net/functions.anonymous
+[closure-class]: https://www.php.net/class.closure
 [closures-rfc]: https://wiki.php.net/rfc/closures
-[callables]: https://secure.php.net/language.types.callable
-[call-user-func-array]: https://secure.php.net/function.call-user-func-array
-[magic-methods]: https://secure.php.net/language.oop5.magic
-[reflection]: https://secure.php.net/intro.reflection
-[overloading]: https://secure.php.net/language.oop5.overloading
+[callables]: https://www.php.net/language.types.callable
+[call-user-func-array]: https://www.php.net/function.call-user-func-array
+[magic-methods]: https://www.php.net/language.oop5.magic
+[reflection]: https://www.php.net/intro.reflection
+[overloading]: https://www.php.net/language.oop5.overloading
