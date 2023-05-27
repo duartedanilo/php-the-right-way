@@ -70,7 +70,7 @@ uma exceção padrão que seria muito vaga, ou criar uma exceção apenas para i
 * [Aninhando exceções no PHP][nesting-exceptions-in-php]
 
 
-[exceptions]: http://php.net/language.exceptions
-[splexe]: http://php.net/spl.exceptions
+[exceptions]: https://php.net/language.exceptions
+[splexe]: https://php.net/spl.exceptions
 [splext]: {{ site.baseurl }}#standard_php_library
-[nesting-exceptions-in-php]: http://www.brandonsavage.net/exceptional-php-nesting-exceptions-in-php/
+[nesting-exceptions-in-php]: https://www.brandonsavage.net/exceptional-php-nesting-exceptions-in-php/
