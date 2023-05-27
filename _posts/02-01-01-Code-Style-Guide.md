@@ -11,7 +11,8 @@ respeite (o mais próximo possível) a um estilo de código comum para facilitar
 várias bibliotecas para seus projetos.
 
 O [Framework Interop Group][fig] propôs e aprovou uma série de recomendações de estilo. Nem todas elas estão
-relacionadas ao estilo de código, mas aquelas que estão são [PSR-1][psr1], [PSR-12][psr12] e [PSR-4][psr4]. Estas
+relacionadas ao estilo de código, mas aquelas que estão são [PSR-1][psr1], [PSR-12][psr12], [PSR-4][psr4] 
+e [PER Coding Style][per-cs]. Estas
 recomendações são apenas um conjunto de regras que muitos projetos como Drupal, Zend, Symfony, Laravel, CakePHP, phpBB,
 AWS SDK, FuelPHP, Lithium, etc estão adotando. Você pode usá-los para seus próprios projetos, ou continuar a usar seu
 próprio estilo pessoal.
@@ -24,6 +25,7 @@ quando se trabalha com muitos códigos de terceiros.
 * [Leia sobre PSR-1][psr1]
 * [Leia sobre PSR-12][psr12]
 * [Leia sobre PSR-4][psr4]
+* [Leia sobre PER Coding Style][per-cs]
 * [Leia sobre PEAR Coding Standards][pear-cs]
 * [Leia sobre Symfony Coding Standards][symfony-cs]
 
@@ -62,23 +64,14 @@ base de código.
 Finalmente, um bom recurso suplementar para escrever código PHP limpo é [Clean Code PHP][cleancode].
 
 [fig]: https://www.php-fig.org/
-
 [psr1]: https://www.php-fig.org/psr/psr-1/
-
 [psr12]: https://www.php-fig.org/psr/psr-12/
-
 [psr4]: https://www.php-fig.org/psr/psr-4/
-
+[per-cs]: https://www.php-fig.org/per/coding-style/
 [pear-cs]: https://pear.php.net/manual/en/standards.php
-
 [symfony-cs]: https://symfony.com/doc/current/contributing/code/standards.html
-
-[phpcs]: https://pear.php.net/package/PHP_CodeSniffer/
-
+[phpcs]: https://github.com/squizlabs/PHP_CodeSniffer
 [phpcbf]: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically
-
 [st-cs]: https://github.com/benmatselby/sublime-phpcs
-
 [phpcsfixer]: https://cs.symfony.com/
-
 [cleancode]: https://github.com/jupeter/clean-code-php
